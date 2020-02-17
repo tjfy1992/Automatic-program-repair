@@ -11,7 +11,7 @@ int median(int a, int b, int c){
     else if (((c>a)&&(c<b))||((c<a)&&(c>b))){
         return c;
     }
-    return 0;
+    return -1;
 }
 
 
