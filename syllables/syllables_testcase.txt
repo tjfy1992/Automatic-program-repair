@@ -1,0 +1,7 @@
+1 syllables("ab",2) f
+2 syllables("bb",2) p
+3 syllables("cc",2) p
+4 syllables("dd",2) p
+5 syllables("oo",2) f
+6 syllables("ou",2) f
+7 syllables("uu",2) f

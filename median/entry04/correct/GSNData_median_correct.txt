@@ -1,0 +1,76 @@
+ID	variable	replacement
+G1	P';P	(median_correct_old); (median_correct_new)
+S1	m	(RIPR Model, G1)
+G2	Tri	G2.x1:((tr1), S1), G2.x2:((tr6), S1), G2.x3:((tr7), S1)
+S2	Tri; a	S2.x1:(((tr1); (Symbolic Execution)), G2.x1), S2.x2:(((tr6); (Symbolic Execution)), G2.x2), S2.x3:(((tr7); (Symbolic Execution)), G2.x3)
+C1	Tri; BB	C1.x1:(((tr1); (%entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%land.lhs.true10,%if.then12,%return)), G2.x1), C1.x2:(((tr6); (%entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%land.lhs.true10,%if.else13,%lor.lhs.false17,%land.lhs.true19,%if.then21,%return)), G2.x2), C1.x3:(((tr7); (%entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%land.lhs.true10,%if.else13,%lor.lhs.false17,%land.lhs.true19,%if.end,%if.end22,%if.end23,%return)), G2.x3)
+G3	;	Completeness to TRs are correctly considered
+G4	tcj	G4.x1:((3,2,1), S2.x1), G4.x2:((558546961,-1589067775,558415872), S2.x2), G4.x3:((1,0,0), S2.x3), G4.x4:((1,2,3), G3), G4.x5:((0,0,0), G3)
+Sn1	tcj	Sn1.x1:((3,2,1), G4.x1), Sn1.x2:((558546961,-1589067775,558415872), G4.x2), Sn1.x3:((1,0,0), G4.x3), Sn1.x4:((1,2,3), G4.x4), Sn1.x5:((0,0,0), G4.x5)
+
+Sn1.x1 1.000000 1.000000
+Sn1.x2 0.000000 0.330000
+Sn1.x3 0.670000 1.000000
+Sn1.x4 1.000000 1.000000
+Sn1.x5 1.000000 1.000000
+
+
+# tr1: %entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%land.lhs.true10,%if.then12,%return
+# old path:%entry %land.lhs.true %lor.lhs.false %if.else %lor.lhs.false8 %land.lhs.true10 %if.then12 %return 
+# test case(3,2,1) : 1B p 1.000000 1.000000
+# %entry %land.lhs.true %lor.lhs.false %if.else %lor.lhs.false8 %land.lhs.true10 %if.then12 %return p 
+distance: 1.000000
+
+
+# tr2: %entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%land.lhs.true10,%if.else13,%land.lhs.true15,%if.then21,%return
+
+# tr3: %entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%land.lhs.true10,%if.else13,%land.lhs.true15,%lor.lhs.false17,%land.lhs.true19,%if.then21,%return
+
+# tr4: %entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%land.lhs.true10,%if.else13,%land.lhs.true15,%lor.lhs.false17,%land.lhs.true19,%if.end,%if.end22,%if.end23,%return
+
+# tr5: %entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%land.lhs.true10,%if.else13,%land.lhs.true15,%lor.lhs.false17,%if.end,%if.end22,%if.end23,%return
+
+# tr6: %entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%land.lhs.true10,%if.else13,%lor.lhs.false17,%land.lhs.true19,%if.then21,%return
+# old path:%entry %land.lhs.true %lor.lhs.false %if.else %lor.lhs.false8 %land.lhs.true10 %if.else13 %lor.lhs.false17 %land.lhs.true19 %if.then21 %return 
+# test case(558546961,-1589067775,558415872) : 1B f 0.000000 0.330000
+# %entry %land.lhs.true %lor.lhs.false %if.else %lor.lhs.false8 %land.lhs.true10 %if.else13 %lor.lhs.false17 %land.lhs.true19 %if.then21 %return p 
+distance: 1.000000
+
+
+# tr7: %entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%land.lhs.true10,%if.else13,%lor.lhs.false17,%land.lhs.true19,%if.end,%if.end22,%if.end23,%return
+# old path:%entry %land.lhs.true %lor.lhs.false %if.else %lor.lhs.false8 %land.lhs.true10 %if.else13 %lor.lhs.false17 %land.lhs.true19 %if.end %if.end22 %if.end23 %return 
+# test case(1,0,0) : 2 f 0.670000 1.000000
+# %entry %land.lhs.true %lor.lhs.false %if.else %lor.lhs.false8 %land.lhs.true10 %if.then12 %return p 
+distance: 0.538462
+
+
+# tr8: %entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%land.lhs.true10,%if.else13,%lor.lhs.false17,%if.end,%if.end22,%if.end23,%return
+
+# tr9: %entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%if.else13,%land.lhs.true15,%if.then21,%return
+
+# tr10: %entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%if.else13,%land.lhs.true15,%lor.lhs.false17,%land.lhs.true19,%if.then21,%return
+
+# tr11: %entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%if.else13,%land.lhs.true15,%lor.lhs.false17,%land.lhs.true19,%if.end,%if.end22,%if.end23,%return
+
+# tr12: %entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%if.else13,%land.lhs.true15,%lor.lhs.false17,%if.end,%if.end22,%if.end23,%return
+
+# tr13: %entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%if.else13,%lor.lhs.false17,%land.lhs.true19,%if.then21,%return
+
+# tr14: %entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%if.else13,%lor.lhs.false17,%land.lhs.true19,%if.end,%if.end22,%if.end23,%return
+
+# tr15: %entry,%land.lhs.true,%lor.lhs.false,%if.else,%lor.lhs.false8,%if.else13,%lor.lhs.false17,%if.end,%if.end22,%if.end23,%return
+
+
+
+#full beyond trs:
+# old path: %entry %lor.lhs.false %land.lhs.true3 %if.else %land.lhs.true6 %if.then12 %return 
+# test case(1,2,3) : 1B p 1.000000 1.000000
+# new path: %entry %lor.lhs.false %land.lhs.true3 %if.else %land.lhs.true6 %if.then12 %return p 
+distance: 1.000000
+
+# old path: %entry %land.lhs.true %if.then %return 
+# test case(0,0,0) : 1B p 1.000000 1.000000
+# new path: %entry %land.lhs.true %if.then %return p 
+distance: 1.000000
+
+

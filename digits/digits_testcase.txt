@@ -1,0 +1,7 @@
+1 digits(0) p
+2 digits(19) p
+3 digits(690) p
+4 digits(3520) p
+5 digits(32768) p
+6 digits(512000) p
+7 digits(1526051) p

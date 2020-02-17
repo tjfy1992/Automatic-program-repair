@@ -1,0 +1,18 @@
+/-------------test case: (70) start---------------/ 
+old path: %entry %if.else %if.else3 %if.then5 %return 
+failed old paths: 
+%entry %if.else %if.else3 %if.then5 %return; similarity: 1.000000
+
+passed old paths: 
+%entry %if.else %if.else3 %if.else6 %if.else9 %return; similarity: 0.666667
+%entry %if.then %return; similarity: 0.400000
+%entry %if.else %if.then2 %return; similarity: 0.600000
+
+old result: f
+
+new result: p
+
+catagory: calculated2
+/------------------end------------------/ 
+
+

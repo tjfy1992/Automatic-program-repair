@@ -1,0 +1,50 @@
+ID	variable	replacement
+G1	P';P	(grade_correct_old); (grade_correct_new)
+S1	m	(RIPR Model, G1)
+G2	Tri	G2.x1:((tr1), S1), G2.x2:((tr3), S1)
+S2	Tri; a	S2.x1:(((tr1); (Symbolic Execution)), G2.x1), S2.x2:(((tr3); (Symbolic Execution)), G2.x2)
+C1	Tri; BB	C1.x1:(((tr1); (%entry,%if.else,%if.else3,%if.then5,%return)), G2.x1), C1.x2:(((tr3); (%entry,%if.else,%if.else3,%if.else6,%if.else9,%return)), G2.x2)
+G3	;	Completeness to TRs are correctly considered
+G4	tcj	G4.x1:((70), S2.x1), G4.x2:((65), S2.x1), G4.x3:((55), S2.x2), G4.x4:((95), G3), G4.x5:((85), G3)
+Sn1	tcj	Sn1.x1:((70), G4.x1), Sn1.x2:((65), G4.x2), Sn1.x3:((55), G4.x3), Sn1.x4:((95), G4.x4), Sn1.x5:((85), G4.x5)
+
+Sn1.x1 0.000000 0.330000
+Sn1.x2 0.330000 1.000000
+Sn1.x3 1.000000 1.000000
+Sn1.x4 1.000000 1.000000
+Sn1.x5 1.000000 1.000000
+
+
+# tr1: %entry,%if.else,%if.else3,%if.then5,%return
+# old path:%entry %if.else %if.else3 %if.then5 %return 
+# test case(70) : 1B f 0.000000 0.330000
+# %entry %if.else %if.else3 %if.then5 %return p 
+distance: 1.000000
+# test case(65) : 2 f 0.330000 1.000000
+# %entry %if.else %if.else3 %if.else6 %if.then8 %return p 
+distance: 0.666667
+
+
+# tr2: %entry,%if.else,%if.else3,%if.else6,%if.then8,%return
+
+# tr3: %entry,%if.else,%if.else3,%if.else6,%if.else9,%return
+# old path:%entry %if.else %if.else3 %if.else6 %if.else9 %return 
+# test case(55) : 1B p 1.000000 1.000000
+# %entry %if.else %if.else3 %if.else6 %if.else9 %return p 
+distance: 1.000000
+
+
+
+
+#full beyond trs:
+# old path: %entry %if.then %return 
+# test case(95) : 1B p 1.000000 1.000000
+# new path: %entry %if.then %return p 
+distance: 1.000000
+
+# old path: %entry %if.else %if.then2 %return 
+# test case(85) : 1B p 1.000000 1.000000
+# new path: %entry %if.else %if.then2 %return p 
+distance: 1.000000
+
+

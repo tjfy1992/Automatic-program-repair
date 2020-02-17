@@ -1,0 +1,74 @@
+ID	variable	replacement
+G1	P';P	(digits_Incorrect02_old); (digits_Incorrect02_new)
+S1	m	(RIPR Model, G1)
+G2	Tri	G2.x1:((tr1), S1)
+S2	Tri; a	S2.x1:(((tr1); (Symbolic Execution)), G2.x1)
+C1	Tri; BB	C1.x1:(((tr1); (%entry,%if.end,%if.then2,%while.cond,%while.end,%return)), G2.x1)
+G3	;	Completeness to TRs are correctly considered
+G4	tcj	G4.x1:((-7), S2.x1), G4.x2:((-31), S2.x1), G4.x3:((-304), S2.x1), G4.x4:((0), G3), G4.x5:((19), G3), G4.x6:((690), G3), G4.x7:((3520), G3), G4.x8:((32768), G3), G4.x9:((512000), G3), G4.x10:((1526051), G3)
+Sn1	tcj	Sn1.x1:((-7), G4.x1), Sn1.x2:((-31), G4.x2), Sn1.x3:((-304), G4.x3), Sn1.x4:((0), G4.x4), Sn1.x5:((19), G4.x5), Sn1.x6:((690), G4.x6), Sn1.x7:((3520), G4.x7), Sn1.x8:((32768), G4.x8), Sn1.x9:((512000), G4.x9), Sn1.x10:((1526051), G4.x10)
+
+Sn1.x1 1.000000 0.670000
+Sn1.x2 0.670000 0.670000
+Sn1.x3 0.330000 0.670000
+Sn1.x4 1.000000 1.000000
+Sn1.x5 1.000000 1.000000
+Sn1.x6 1.000000 1.000000
+Sn1.x7 1.000000 1.000000
+Sn1.x8 1.000000 1.000000
+Sn1.x9 1.000000 1.000000
+Sn1.x10 1.000000 1.000000
+
+
+# tr1: %entry,%if.end,%if.then2,%while.cond,%while.end,%return
+# old path:%entry %if.end %if.then2 %while.cond %while.end %return 
+# test case(-7) : 1B p 1.000000 0.670000
+# %entry %if.end %if.then2 %while.cond %while.end %return p 
+distance: 1.000000
+# test case(-31) : 1B p 0.670000 0.670000
+# %entry %if.end %if.then2 %while.cond %while.body %while.cond %while.end %return p 
+distance: 0.750000
+# test case(-304) : 1B p 0.330000 0.670000
+# %entry %if.end %if.then2 %while.cond %while.body %while.cond %while.body %while.cond %while.end %return p 
+distance: 0.600000
+
+
+
+
+#full beyond trs:
+# old path: %entry %if.then %return 
+# test case(0) : 1B p 1.000000 1.000000
+# new path: %entry %if.then %return p 
+distance: 1.000000
+
+# old path: %entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return 
+# test case(19) : 1B p 1.000000 1.000000
+# new path: %entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return p 
+distance: 1.000000
+
+# old path: %entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return 
+# test case(690) : 1B p 1.000000 1.000000
+# new path: %entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return p 
+distance: 1.000000
+
+# old path: %entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return 
+# test case(3520) : 1B p 1.000000 1.000000
+# new path: %entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return p 
+distance: 1.000000
+
+# old path: %entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return 
+# test case(32768) : 1B p 1.000000 1.000000
+# new path: %entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return p 
+distance: 1.000000
+
+# old path: %entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return 
+# test case(512000) : 1B p 1.000000 1.000000
+# new path: %entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return p 
+distance: 1.000000
+
+# old path: %entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return 
+# test case(1526051) : 1B p 1.000000 1.000000
+# new path: %entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return p 
+distance: 1.000000
+
+

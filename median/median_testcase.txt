@@ -1,0 +1,5 @@
+1 median(1,2,3) p
+2 median(0,0,0) p
+3 median(2,1,2) p
+4 median(3,2,1) p
+5 median(1,0,0) f

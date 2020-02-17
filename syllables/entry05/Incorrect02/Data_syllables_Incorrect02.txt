@@ -1,0 +1,901 @@
+/-------------test case: (1633778273,2) start---------------/ 
+old path: %entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 1.000000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.789474
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.800000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1633778017,2) start---------------/ 
+old path: %entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.944444
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.842105
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.850000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1701118053,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.944444
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.842105
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.850000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1701149285,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.944444
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.842105
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.850000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1701149029,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.894737
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.894737
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1768489065,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.894737
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.894737
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1768520297,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.894737
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.894737
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1768520041,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.850000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.950000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (24832,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.705882
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.789474
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.750000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (2054840698,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.705882
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.789474
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.750000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1869545583,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.850000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.950000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1869576815,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.850000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.950000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (2037997945,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.666667
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.842105
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.800000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (25856,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.666667
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.842105
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.800000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (2054841722,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.666667
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.842105
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.800000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1869576559,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.952381
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.952381
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (26880,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.684211
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.894737
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.850000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (2054842746,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.684211
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.894737
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.850000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (2037998969,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.684211
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.894737
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.850000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (28416,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.700000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+old result: p
+
+new result: p
+
+catagory: calculated2
+/------------------end------------------/ 
+
+/-------------test case: (2054844282,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.700000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+old result: p
+
+new result: p
+
+catagory: calculated2
+/------------------end------------------/ 
+
+/-------------test case: (2038001529,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.714286
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.952381
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1970633077,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.772727
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.863636
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.909091
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.954545
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.909091
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (2037999993,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.700000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1970633333,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.952381
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.952381
+
+old result: p
+
+new result: p
+
+catagory: calculated2
+/------------------end------------------/ 
+
+/-------------test case: (1970602101,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.952381
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.952381
+
+old result: p
+
+new result: p
+
+catagory: calculated2
+/------------------end------------------/ 
+
+/-------------test case: (29952,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.714286
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.952381
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.952381
+
+old result: p
+
+new result: p
+
+catagory: calculated2
+/------------------end------------------/ 
+
+/-------------test case: (2054845818,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.714286
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.952381
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.952381
+
+old result: p
+
+new result: p
+
+catagory: calculated2
+/------------------end------------------/ 
+
+/-------------test case: (2038003065,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.727273
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.863636
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.909091
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.954545
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.909091
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (30976,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.727273
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.818182
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.863636
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.909091
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.954545
+
+old result: p
+
+new result: p
+
+catagory: calculated2
+/------------------end------------------/ 
+
+/-------------test case: (2054846842,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.727273
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.818182
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.863636
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.909091
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.954545
+
+old result: p
+
+new result: p
+
+catagory: calculated2
+/------------------end------------------/ 
+
+/-------------test case: (2038004089,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.739130
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.826087
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.869565
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.913043
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.913043
+
+old result: p
+
+new result: p
+
+catagory: calculated2
+/------------------end------------------/ 
+
+/-------------test case: (2037973113,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.772727
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.818182
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.863636
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.909091
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.954545
+
+old result: p
+
+new result: p
+
+catagory: calculated2
+/------------------end------------------/ 
+
+/-------------test case: (2038004345,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.772727
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.818182
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.863636
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.909091
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.954545
+
+old result: p
+
+new result: p
+
+catagory: calculated2
+/------------------end------------------/ 
+
+/-------------test case: (31232,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 1.000000
+
+old result: p
+
+new result: p
+
+catagory: calculated2
+/------------------end------------------/ 
+
+/-------------test case: (2054815866,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 1.000000
+
+old result: p
+
+new result: p
+
+catagory: calculated2
+/------------------end------------------/ 
+
+/-------------test case: (2054847098,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 1.000000
+
+old result: p
+
+new result: p
+
+catagory: calculated2
+/------------------end------------------/ 
+
+/-------------test case: (1633775457,2) start---------------/ 
+old path: %entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.882353
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.842105
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.800000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.666667
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1633776993,2) start---------------/ 
+old path: %entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.941176
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.842105
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.850000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.714286
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1869570415,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.705882
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.842105
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.800000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.666667
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1701146469,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.882353
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.894737
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.850000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.714286
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1701148005,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.888889
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.894737
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1768517481,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.833333
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.947368
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1869571439,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.764706
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.894737
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.850000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.714286
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1768519017,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.842105
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.947368
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.950000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1869572463,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.777778
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.947368
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1970626933,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.705882
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.842105
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.800000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.714286
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1970627957,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.722222
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.894737
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.850000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.761905
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1970628981,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.736842
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.947368
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.900000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.904762
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.809524
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (1970630517,2) start---------------/ 
+old path: %entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end 
+failed old paths: 
+%entry %for.cond %for.body %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.750000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.950000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.950000
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %if.then %if.end %for.inc %for.cond %for.end; similarity: 0.952381
+
+passed old paths: 
+%entry %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.body %lor.lhs.false %lor.lhs.false8 %lor.lhs.false14 %lor.lhs.false20 %lor.lhs.false26 %if.end %for.inc %for.cond %for.end; similarity: 0.857143
+
+old result: f
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+

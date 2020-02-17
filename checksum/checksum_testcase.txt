@@ -1,0 +1,5 @@
+1 checksum("dd",2) p
+2 checksum("aa",2) f
+3 checksum("bb",2) f
+4 checksum("cc",2) f
+5 checksum("ee",2) f

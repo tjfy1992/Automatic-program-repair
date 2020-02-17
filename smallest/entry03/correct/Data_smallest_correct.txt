@@ -1,0 +1,96 @@
+/-------------test case: (32769,32768,32769,1) start---------------/ 
+old path: %entry %if.else %land.lhs.true5 %land.lhs.true7 %if.else10 %if.else13 %return 
+failed old paths: 
+%entry %if.else %if.else10 %if.else13 %return; similarity: 0.714286
+
+passed old paths: 
+%entry %if.else %land.lhs.true5 %land.lhs.true7 %if.then9 %return; similarity: 0.714286
+%entry %if.else %if.else10 %if.else13 %return; similarity: 0.714286
+%entry %land.lhs.true %if.else %if.else10 %if.else13 %return; similarity: 0.714286
+%entry %land.lhs.true %land.lhs.true2 %if.then %return; similarity: 0.285714
+%entry %land.lhs.true %land.lhs.true2 %if.else %if.else10 %if.else13 %return; similarity: 0.714286
+
+old result: p
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (49153,32768,2,3) start---------------/ 
+old path: %entry %if.else %land.lhs.true5 %if.else10 %if.then12 %return 
+failed old paths: 
+%entry %if.else %if.else10 %if.else13 %return; similarity: 0.666667
+
+passed old paths: 
+%entry %if.else %land.lhs.true5 %land.lhs.true7 %if.then9 %return; similarity: 0.666667
+%entry %if.else %if.else10 %if.else13 %return; similarity: 0.666667
+%entry %land.lhs.true %if.else %if.else10 %if.else13 %return; similarity: 0.666667
+%entry %land.lhs.true %land.lhs.true2 %if.then %return; similarity: 0.333333
+%entry %land.lhs.true %land.lhs.true2 %if.else %if.else10 %if.else13 %return; similarity: 0.571429
+
+old result: p
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (57345,57344,40962,8195) start---------------/ 
+old path: %entry %if.else %land.lhs.true5 %if.else10 %if.else13 %return 
+failed old paths: 
+%entry %if.else %if.else10 %if.else13 %return; similarity: 0.833333
+
+passed old paths: 
+%entry %if.else %land.lhs.true5 %land.lhs.true7 %if.then9 %return; similarity: 0.666667
+%entry %if.else %if.else10 %if.else13 %return; similarity: 0.833333
+%entry %land.lhs.true %if.else %if.else10 %if.else13 %return; similarity: 0.833333
+%entry %land.lhs.true %land.lhs.true2 %if.then %return; similarity: 0.333333
+%entry %land.lhs.true %land.lhs.true2 %if.else %if.else10 %if.else13 %return; similarity: 0.714286
+
+old result: p
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (55137,55137,22402,22403) start---------------/ 
+old path: %entry %if.else %if.else10 %if.then12 %return 
+failed old paths: 
+%entry %if.else %if.else10 %if.else13 %return; similarity: 0.800000
+
+passed old paths: 
+%entry %if.else %land.lhs.true5 %land.lhs.true7 %if.then9 %return; similarity: 0.500000
+%entry %if.else %if.else10 %if.else13 %return; similarity: 0.800000
+%entry %land.lhs.true %if.else %if.else10 %if.else13 %return; similarity: 0.666667
+%entry %land.lhs.true %land.lhs.true2 %if.then %return; similarity: 0.400000
+%entry %land.lhs.true %land.lhs.true2 %if.else %if.else10 %if.else13 %return; similarity: 0.571429
+
+old result: p
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (65520,65520,65522,65523) start---------------/ 
+old path: %entry %if.else %if.else10 %if.then12 %return 
+failed old paths: 
+%entry %if.else %if.else10 %if.else13 %return; similarity: 0.800000
+
+passed old paths: 
+%entry %if.else %land.lhs.true5 %land.lhs.true7 %if.then9 %return; similarity: 0.500000
+%entry %if.else %if.else10 %if.else13 %return; similarity: 0.800000
+%entry %land.lhs.true %if.else %if.else10 %if.else13 %return; similarity: 0.666667
+%entry %land.lhs.true %land.lhs.true2 %if.then %return; similarity: 0.400000
+%entry %land.lhs.true %land.lhs.true2 %if.else %if.else10 %if.else13 %return; similarity: 0.571429
+
+old result: p
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+

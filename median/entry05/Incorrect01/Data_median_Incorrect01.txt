@@ -1,0 +1,18 @@
+/-------------test case: (0,3,2) start---------------/ 
+old path: %entry %lor.lhs.false %land.lhs.true3 %if.else %land.lhs.true6 %lor.lhs.false8 %if.else13 %land.lhs.true15 %if.then21 %return 
+failed old paths: 
+%entry %land.lhs.true %lor.lhs.false %if.else %lor.lhs.false8 %land.lhs.true10 %if.else13 %lor.lhs.false17 %land.lhs.true19 %if.end %if.end22 %if.end23 %return; similarity: 0.461538
+
+passed old paths: 
+%entry %lor.lhs.false %land.lhs.true3 %if.else %land.lhs.true6 %if.then12 %return; similarity: 0.600000
+%entry %land.lhs.true %if.then %return; similarity: 0.200000
+%entry %land.lhs.true %lor.lhs.false %if.else %lor.lhs.false8 %land.lhs.true10 %if.then12 %return; similarity: 0.500000
+
+old result: p
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+

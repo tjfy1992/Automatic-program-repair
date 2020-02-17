@@ -1,0 +1,23 @@
+ID	variable	replacement
+G1	P';P	(checksum_correct_old); (checksum_correct_new)
+S1	m	(RIPR Model, G1)
+G2	Tri	G2.x1:((tr1), S1)
+S2	Tri; a	S2.x1:(((tr1); (Symbolic Execution)), G2.x1)
+C1	Tri; BB	C1.x1:(((tr1); (%entry,%for.cond,%for.body,%for.inc,%for.cond,%for.end)), G2.x1)
+G4	tcj	G4.x1:(("dd",2), S2.x1)
+Sn1	tcj	Sn1.x1:(("dd",2), G4.x1)
+
+Sn1.x1 1.000000 1.000000
+
+
+# tr1: %entry,%for.cond,%for.body,%for.inc,%for.cond,%for.end
+# old path:%entry %for.cond %for.body %for.inc %for.cond %for.body %for.inc %for.cond %for.end 
+# test case("dd",2) : 1A p 1.000000 1.000000
+# %entry %for.cond %for.body %for.inc %for.cond %for.body %for.inc %for.cond %for.end p 
+distance: 1.000000
+
+
+
+
+#full beyond trs:
+

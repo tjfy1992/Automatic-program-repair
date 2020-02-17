@@ -1,0 +1,61 @@
+/-------------test case: (-7) start---------------/ 
+old path: %entry %if.end %if.then2 %while.cond %while.end %return 
+failed old paths: 
+
+passed old paths: 
+%entry %if.then %return; similarity: 0.333333
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.300000
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.250000
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.214286
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.187500
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.166667
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.150000
+
+old result: p
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (-31) start---------------/ 
+old path: %entry %if.end %if.then2 %while.cond %while.end %return 
+failed old paths: 
+
+passed old paths: 
+%entry %if.then %return; similarity: 0.333333
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.300000
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.250000
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.214286
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.187500
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.166667
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.150000
+
+old result: p
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+/-------------test case: (-304) start---------------/ 
+old path: %entry %if.end %if.then2 %while.cond %while.end %return 
+failed old paths: 
+
+passed old paths: 
+%entry %if.then %return; similarity: 0.333333
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.300000
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.250000
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.214286
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.187500
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.166667
+%entry %if.end %if.else %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.body9 %while.cond7 %while.end13 %return; similarity: 0.150000
+
+old result: p
+
+new result: p
+
+catagory: calculated1
+/------------------end------------------/ 
+
+

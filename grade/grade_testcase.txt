@@ -1,0 +1,7 @@
+1 grade(95) p
+2 grade(90) p
+3 grade(85) p
+4 grade(80) p
+5 grade(65) f
+6 grade(60) f
+7 grade(55) p
